@@ -2,12 +2,12 @@
 
 Built using Python, React, GraphQL.
 
-Navigate to the user directory then run the following commands in your terminal.
+Navigate to the project directory then run the following commands in your terminal.
 
 ```
-cd app
 pipenv install
 pipenv shell
+cd app
 python manage.py migrate
 python manage.py runserver
 ```
