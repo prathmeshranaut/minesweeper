@@ -6,6 +6,7 @@ Navigate to the user directory then run the following commands in your terminal.
 
 ```
 cd app
+pipenv install
 pipenv shell
 python manage.py migrate
 python manage.py runserver
