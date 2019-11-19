@@ -67,6 +67,8 @@ AUTHENTICATION_BACKENDS = [
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
+    'http://167.99.228.79:5000',
+    'http://167.99.228.79:3000'
 ]
 
 ROOT_URLCONF = 'app.urls'
