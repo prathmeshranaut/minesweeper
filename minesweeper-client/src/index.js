@@ -9,7 +9,7 @@ import Auth from './components/Auth';
 import './fontawesome';
 
 const client = new ApolloClient({
-    uri: 'http://localhost:8000/graphql/',
+    uri: 'http://167.99.228.79:8000/graphql/',
     fetchOptions: {
         credentials: "include"
     },
